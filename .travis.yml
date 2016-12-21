@@ -8,11 +8,11 @@ addons:
 
 ## do everything in HermiT directory
 ## this installs dependencies. Ant needs no installation because they are already there.
-install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V;
+install: cd traviscitest; mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V;
 
 ## do the tests
-script: ant test-hard && cd HermiT && mvn test
-
+# script: ant test-hard && cd HermiT && mvn test
+script: cd traviscitest; mvn test;
 ## a single JVM should be enough.
 ## Adding openjdk7 is probably a sensible thing, but means I have to 
 ## edit the ant build.xml file which is unfortunate.
