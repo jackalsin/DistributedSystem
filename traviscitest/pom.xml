@@ -39,6 +39,14 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>4.2.0</version>
+                <!--<configuration>-->
+                    <!--<repoToken>yourcoverallsprojectrepositorytoken</repoToken>-->
+                <!--</configuration>-->
+            </plugin>
         </plugins>
     </build>
     <dependencies>
@@ -47,6 +55,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.eluder.coveralls/coveralls-maven-plugin -->
+        <dependency>
+            <groupId>org.eluder.coveralls</groupId>
+            <artifactId>coveralls-maven-plugin</artifactId>
+            <version>4.2.0</version>
         </dependency>
 
     </dependencies>
