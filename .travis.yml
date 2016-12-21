@@ -1,5 +1,11 @@
 language: java
 
+sudo: false
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+
 ## do everything in HermiT directory
 ## this installs dependencies. Ant needs no installation because they are already there.
 install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V;
@@ -11,4 +17,5 @@ script: ant test-hard && cd HermiT && mvn test
 ## Adding openjdk7 is probably a sensible thing, but means I have to 
 ## edit the ant build.xml file which is unfortunate.
 jdk:
-  - openjdk8
+  - oraclejdk8
+  
