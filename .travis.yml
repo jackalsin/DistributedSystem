@@ -18,4 +18,6 @@ script: cd traviscitest; mvn test;
 ## edit the ant build.xml file which is unfortunate.
 jdk:
   - oraclejdk8
-  
+
+after_success:
+  - mvn clean cobertura:cobertura coveralls:report
