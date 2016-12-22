@@ -16,4 +16,8 @@ public class ReverseStringTest {
   public void testReverseString() throws Exception {
     assertEquals("abc", ReverseString.reverseString("cba"));
   }
+  @Test
+  public void testFail() throws Exception {
+    throw new AssertionError();
+  }
 }
