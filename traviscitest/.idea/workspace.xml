@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c6bec3a-c486-47b1-b50b-f9647162a5c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ReverseStringTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ReverseStringTest.class" />
+    <list default="true" id="4c6bec3a-c486-47b1-b50b-f9647162a5c6" name="Default" comment="has an error, see what happen">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" afterPath="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" />
     </list>
@@ -35,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" column="96" lean-forward="true" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
+              <first_editor relative-caret-position="81">
+                <caret line="3" column="169" lean-forward="true" selection-start-line="3" selection-start-column="169" selection-end-line="3" selection-end-column="169" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -57,8 +59,8 @@
       <file leaf-file-name="ReverseStringTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReverseStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="374">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +90,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ReverseString.java" />
-        <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" />
       </list>
     </option>
@@ -862,8 +864,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482306733239</updated>
-      <workItem from="1482306736157" duration="6804000" />
+      <workItem from="1482306736157" duration="7359000" />
     </task>
+    <task id="LOCAL-00001" summary="has an error, see what happen">
+      <created>1482394801217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482394801217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -890,7 +900,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6804000" />
+    <option name="totallyTimeSpent" value="7359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1125" y="0" width="802" height="1047" extended-state="0" />
@@ -934,6 +944,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="has an error, see what happen" />
+    <option name="LAST_COMMIT_MESSAGE" value="has an error, see what happen" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -943,19 +957,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="96" lean-forward="true" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="169" lean-forward="true" selection-start-line="3" selection-start-column="169" selection-end-line="3" selection-end-column="169" />
             <folding />
           </first_editor>
           <second_editor />
@@ -970,10 +976,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ReverseStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
