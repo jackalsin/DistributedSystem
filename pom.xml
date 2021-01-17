@@ -14,7 +14,6 @@
         <java.version>11</java.version>
         <junit.jupiter.version>5.4.0</junit.jupiter.version>
         <junit.platform.version>1.1.1</junit.platform.version>
-        <org.jetbrains.annotations.version>19.0.0</org.jetbrains.annotations.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
         <exec.maven.plugin.version>3.0.0</exec.maven.plugin.version>
